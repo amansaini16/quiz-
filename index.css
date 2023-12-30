@@ -1,0 +1,66 @@
+body{
+    background: #001e4d;
+    margin-top: 50px;
+}
+.app{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto 0px;
+    padding: 30px;
+}
+.app h1{
+    font-weight: 650;
+    padding-bottom: 30px;
+    color: #001e4d;
+    border-bottom: 1px solid #333;
+    font-size: 25px;
+}
+.quesarea{
+padding: 20px 0;
+}
+.quesarea h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #001e4d;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.btn:hover:not([disabled]){
+background: #222;
+color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#Nxt{
+    padding: 10px 50px;
+    background: #001e4d;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 30px 40%;
+    cursor: pointer;
+    font-weight: 500;
+    display: none;
+}
+.correct{
+    background: greenyellow;
+
+}
+.incorrect{
+    background: rgb(248, 59, 59);
+}
